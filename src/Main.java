@@ -13,10 +13,10 @@ public class Main {
 
         Person charlie = new Teacher("Charlie", "Lakeville");
 
-        john.say("Hello Alice, nice to meet you.");
+        john.say("New Text.");
         alice.say("What do you do for a living?");
         john.say(john.tellUsWhatYouAre() + ", how about you?");
-        alice.say(alice.tellUsWhatYouAre() + ".");
+        alice.say(alice.tellUsWhatYouAre() + ", but I'm thinking about making a change.");
 
         Animal dogMilo = new Dog("Milo");
         dogMilo.speak();
@@ -30,9 +30,6 @@ public class Main {
         john.tellUsAboutYourPets();
         john.say("How about you, any pets?");
         alice.tellUsAboutYourPets();
-
-        charlie.tellUsAboutYourPets();
-        john.say("Wait, who are you?");
 
         Person tom = new Teacher("Tom", "St. Paul");
         tom.say("Hello!");
