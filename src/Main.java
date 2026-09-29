@@ -13,6 +13,7 @@ public class Main {
 
         Person charlie = new Teacher("Charlie", "Lakeville");
 
+<<<<<<< HEAD
         john.say("Something unique about you, Alice?");
         alice.say("What do you do for a living?");
         john.say(john.tellUsWhatYouAre() + ", how about you?");
@@ -36,5 +37,8 @@ public class Main {
 
         Person tom = new Teacher("Tom", "St. Paul");
         tom.say("Hello!");
+=======
+        john.say("I'm deleting the conversation!");
+>>>>>>> merge_conflict
     }
 }
