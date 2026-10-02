@@ -36,5 +36,8 @@ public class Main {
 
         Person tom = new Teacher("Tom", "St. Paul");
         tom.say("Hello!");
+
+        Person Rose = new Student("Rose", "Minneapolis");
+        Rose.say("Hello!");
     }
 }
